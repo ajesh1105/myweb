@@ -43,17 +43,13 @@
 	<build>
     <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.7.0</version>
-            <configuration>
-                <target>10</target>
-                <source>10</source>
-                <release>10</release>
-            </configuration>
+            <pluginRepositories>
+	    <pluginRepository>    
+		<id>maven1</id>
+		<name>Maven.org</name>
+		<url>http://repo1.maven.org/maven2</url>
+	    </pluginRepository>
+	</pluginRepositories>
 
-        </plugin>
-    </plugins>
-</build>
 </project>
 	
