@@ -8,6 +8,7 @@
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
 	
+	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 	</properties>	
@@ -41,9 +42,9 @@
 	
 	<pluginRepositories>
 	    <pluginRepository>    
-		<id>maven1</id>
+		<id>maven2</id>
 		<name>Maven.org</name>
-		<url>http://repo1.maven.org/maven2</url>
+		<url>http://repo.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
 
